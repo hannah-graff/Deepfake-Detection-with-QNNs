@@ -16,7 +16,7 @@ Deepfakes–the artificial manipulation of videos–are an ever-emerging threat 
 
 ### Flow Diagram
 
-![Flow Diagram](https://github.com/user-attachments/assets/4258a4d2-4481-4e04-a57b-f824c7c3b9ad)
+![Flow Diagram (1)](https://github.com/user-attachments/assets/6a34ced0-05fd-4a12-a193-f384c0f735b8)
 
 ### Requirements
 
