@@ -1,6 +1,5 @@
 # Deepfake-Detection-with-QNNs
-Research from Data Science Capstone Class.
-
+Research from Data Science Capstone Class <br>
 Advisor: Dr. Steven Fernandes
 
 ### Overview
@@ -46,14 +45,20 @@ An example of the images inputted and outputted are below.
 
 Then, we build, train, and test the CNN model. One example of the accuracy and loss plots are below.
 
-![lossacc](https://github.com/user-attachments/assets/fbb2340c-136f-4569-ba5c-f4063b550ba6)
+![withoutquant](https://github.com/user-attachments/assets/2fe8ee38-2b49-4af4-a137-5a43a9df6c0d)
+
+Classical Model Test Loss: 0.7317 <br>
+Classical Model Test Accuracy: 70.40%
 
 5. QNN Model
 
 Similarly, we build, train, and test a QNN model. One example of the accuracy and loss plots are below.
 
+![quant](https://github.com/user-attachments/assets/353ba4dc-f735-49fd-ae5f-dc9d6954ff77)
 
+QCNN Model Test Loss: 1.0766 <br>
+QCNN Model Test Accuracy: 56.40%
 
 6. Compare
 
-Finally, we compare the two models' accuracy.
+Finally, we compare the two models' accuracy. For the examples we have been using, the CNN model is more accurate than the QNN model (70% vs. 56%) with less loss (0.73 vs. 1.08).
