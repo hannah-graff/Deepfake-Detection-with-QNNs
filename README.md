@@ -8,7 +8,7 @@ Deepfakes–the artificial manipulation of videos–are an ever-increasing threa
 
 ### Objectives
 
-- advance the study and implementation of quantum computing via Quanvolutional Nueral Networks
+- advance the study and implementation of quantum computing via Quanvolutional Neural Networks
 - outpace the growth of AI deepfake creation with the abilities of deepfake detection
 - enhance processing efficiency
 - propose a viable option for combatting deepfake detection
