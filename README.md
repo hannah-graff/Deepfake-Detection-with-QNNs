@@ -19,7 +19,7 @@ Deepfakes–the artificial manipulation of videos–are an ever-increasing threa
 
 ### Requirements
 
-Python 3.10
+Python 3.10; Pennlyane library (for quantum)
 
 ### Steps
 
@@ -31,7 +31,7 @@ First, we create fake videos using a real and a donor video. See below for an il
 
 2. Preprocess
 
-Next, we define a random quantum circuit and convolve the input image with it (preprocessing). A random 100 frames are taken from the original and the fake video, colnvolved, and then split into testing and validation data. Finally, we preprocess the test images using our quantum circuit.
+Next, we define a random quantum circuit and convolve the input image with it (preprocessing). A random 100 frames are taken from the original and the fake video, colnvolved, and then split into training and validation data. Finally, we preprocess the test images using our quantum circuit.
 
 ![preprcoess](https://github.com/user-attachments/assets/bddce1f6-c872-4a10-aec9-15f9c6f25a58)
 
