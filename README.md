@@ -15,7 +15,7 @@ Deepfakes–the artificial manipulation of videos–are an ever-increasing threa
 
 ### Flow Diagram
 
-![Flow Diagram (1)](https://github.com/user-attachments/assets/6a34ced0-05fd-4a12-a193-f384c0f735b8)
+![Updated Flow Diagram](https://github.com/user-attachments/assets/652bf867-2616-466c-b588-bd7592bb0724)
 
 ### Requirements
 
@@ -25,7 +25,7 @@ Python 3.10; Pennlyane library (for quantum)
 
 1. Generate
 
-First, we create fake videos using a real and a donor video. See below for an illustration of one of the examples. The full videos are above.
+First, we create fake videos using a real and a donor video using the commercial website deepfakesweb.com. See below for an illustration of one of the examples. The full videos are above.
 
 ![Original_Donor_Fake Videos](https://github.com/user-attachments/assets/f8610213-eaa0-40ba-a63b-42bbcad77de7)
 
@@ -39,26 +39,26 @@ Next, we define a random quantum circuit and convolve the input image with it (p
 
 An example of the images inputted and outputted are below.
 
-![input2](https://github.com/user-attachments/assets/beb1adeb-c061-458c-959d-310311e2e567)
+![colvolved images](https://github.com/user-attachments/assets/9d7d0910-af82-493e-bebc-180e234e62d4)
 
 4. CNN Model
 
 Then, we build, train, and test the CNN model. One example of the accuracy and loss plots are below.
 
-![withoutquant](https://github.com/user-attachments/assets/2fe8ee38-2b49-4af4-a137-5a43a9df6c0d)
+[coming soon]
 
-Classical Model Test Loss: 0.7317 <br>
-Classical Model Test Accuracy: 70.40%
+Classical Model Test Loss: 6.0351 <br>
+Classical Model Test Accuracy: 26.48%
 
 5. QNN Model
 
 Similarly, we build, train, and test a QNN model. One example of the accuracy and loss plots are below.
 
-![quant](https://github.com/user-attachments/assets/353ba4dc-f735-49fd-ae5f-dc9d6954ff77)
+[coming soon]
 
-QCNN Model Test Loss: 1.0766 <br>
-QCNN Model Test Accuracy: 56.40%
+QCNN Model Test Loss: 1.4812 <br>
+QCNN Model Test Accuracy: 71.16%
 
 6. Compare
 
-Finally, we compare the two models' accuracy. For the examples we have been using, the CNN model is more accurate than the QNN model (70% vs. 56%) with less loss (0.73 vs. 1.08).
+Finally, we compare the two models' accuracy. For the examples we have been using, the QNN model is more accurate than the CNN model (71% vs. 26%) with less loss (1.48 vs. 6.03).
