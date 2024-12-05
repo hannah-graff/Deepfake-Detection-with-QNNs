@@ -43,21 +43,19 @@ An example of the images inputted and outputted are below.
 
 4. CNN Model
 
-Then, we build, train, and test the CNN model. One example of the accuracy and loss plots are below.
-
-[coming soon]
+Then, we build, train, and test the CNN model. The accuracy and loss are reported below.
 
 Classical Model Test Loss: 6.0351 <br>
 Classical Model Test Accuracy: 26.48%
 
 5. QNN Model
 
-Similarly, we build, train, and test a QNN model. One example of the accuracy and loss plots are below.
-
-[coming soon]
+Similarly, we build, train, and test a QNN model. The accuracy and loss are reported below, followed by plots.
 
 QCNN Model Test Loss: 1.4812 <br>
 QCNN Model Test Accuracy: 71.16%
+
+![trainingloss](https://github.com/user-attachments/assets/1f16f4a6-e289-4cc1-aa25-e38550be64fd)
 
 6. Compare
 
